@@ -1,0 +1,20 @@
+{
+  "name": "hooks-connect",
+  "version": "0.1.0",
+  "description": "Simple alternate redux connector for react.",
+  "main": "./.build/index.js",
+  "repository": "https://github.com/Oddeone/hooks-connect.git",
+  "author": "German Danilov",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "redux": ">=3.0.0"
+  },
+  "scripts": {
+      "compile": "yarn tsc"
+  }
+}
